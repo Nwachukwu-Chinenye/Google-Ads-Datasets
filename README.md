@@ -1,12 +1,23 @@
 Google-Ads-Datasets
 This repository contains two versions of a Google Ads dataset:
 Google Ads.cleaned.xlsx: The cleaned version of the dataset, processed using Excel to correct formats and remove errors.
-GoogleAds_DataAnalytics_Sales_Uncleaned.csv: The original, raw dataset as it was collected.
+GoogleAds_DataAnalytics_Sales_Uncleaned.csv: The original, raw dataset with potential inconsistencies (e.g., misspellings like "data anaytics training") and missing data.
 
 About the Data
-This dataset includes Google Ads metrics such as clicks, impressions, conversions, and other performance indicators. The data was collected for a Data Analytics Course campaign in Hyderabad, covering November 2024. The cleaned version (Google Ads.cleaned.xlsx) was processed using Excel to standardize formats (e.g., Ad_Date to YYYY-MM-DD) and fix errors (e.g., Conversion Rate calculations), making it ready for analysis.
+Source: Collected from Google Ads campaigns in Hyderabad, India, covering November 2024.
+Metrics: Includes clicks, impressions, conversions, conversion rate, cost, leads, sale amount, ad date, location, device, and keyword.
+Cleaning Process: The cleaned file was processed using Excel on July 30, 2025, to standardize data and improve usability for analysis.
+
+Usage
+Cleaned File: Use Google Ads.cleaned.xlsx for immediate analysis in Excel, Python (with pandas), or R.
+Uncleaned File: Use GoogleAds_DataAnalytics_Sales_Uncleaned.csv for reference or to replicate the cleaning process.
+Tools: Open with spreadsheet software or data analysis tools.
 
 Notes
-The cleaned file (Google Ads.cleaned.xlsx) is formatted for easy analysis in tools like Excel, Python, or R.
-The uncleaned file (GoogleAds_DataAnalytics_Sales_Uncleaned.csv) preserves the original state of the data, including potential inconsistencies or errors (e.g., misspellings like "data anaytics training"), and can be used for reference or further cleaning.
-If the uncleaned file contains sensitive data, consider anonymizing it before use.
+The cleaned file contains 2,601 rows with standardized formats, while the uncleaned file retains the original 2,601 rows.
+Missing values (e.g., clicks, cost) are partially addressed in the cleaned version; further imputation may be needed.
+If the uncleaned file contains sensitive data, anonymize it before sharing.
+
+Contributions
+Feel free to fork this repository, suggest improvements, or add analysis.
+Create a pull request with your changes.
