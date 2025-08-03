@@ -7,6 +7,7 @@ This repository contains two versions of a Google Ads dataset:
 - [Google Ads Datasets](#google-ads-datasets)
 - [About the Data](#about-the-data)
 - [Usage](#usage)
+- [Visualizations](#visualizations)
 - [Notes](#notes)
 - [Contributions](#contributions)
 - [Last Updated](#last-updated)
@@ -21,6 +22,12 @@ This repository contains two versions of a Google Ads dataset:
 - **Uncleaned File**: Use GoogleAds_DataAnalytics_Sales_Uncleaned.csv for reference or to replicate the cleaning process.
 - **Tools**: Open with spreadsheet software or data analysis tools.
 
+ ## Visualizations
+- A bar chart showing the Cost Per Click (CPC) for Desktop, Mobile, and Tablet devices from the November 2024 campaign.
+- A bar chart displaying the total number of clicks by device (Desktop, Mobile, Tablet).
+- A bar chart illustrating the number of conversions across different campaigns.
+- A bar chart representing the number of conversions by device (Desktop, Mobile, Tablet).
+
 ## Notes
 - The cleaned file contains 2,601 rows with standardized formats, while the uncleaned file retains the original 2,601 rows.
 - Missing values (e.g., clicks, cost) are partially addressed in the cleaned version; further imputation may be needed.
@@ -31,4 +38,4 @@ This repository contains two versions of a Google Ads dataset:
 - Create a pull request with your changes.
 
   ## Last Updated
-- Last updated: July 31, 2025
+- Last updated: August 03, 2025
