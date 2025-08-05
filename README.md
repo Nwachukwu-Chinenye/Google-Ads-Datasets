@@ -10,6 +10,7 @@ This repository contains two versions of a Google Ads dataset:
 - [Visualizations](#visualizations)
 - [Notes](#notes)
 - [Contributions](#contributions)
+- [Contact](#contact)
 - [Last Updated](#last-updated)
 
 ## About the Data
@@ -36,6 +37,11 @@ This repository contains two versions of a Google Ads dataset:
 ## Contributions
 - Feel free to fork this repository, suggest improvements, or add analysis.
 - Create a pull request with your changes.
+  
+## Contact
+- Connect with me on LinkedIn for professional collaboration or inquiries.
+- [LinkedIn](https://www.linkedin.com/in/chinenye-jennifer-nwachukwu-2a792a22b/)
+- Email me at [Email](nwachukwuchinenyejennifer@gmail.com)
 
   ## Last Updated
 - Last updated: August 03, 2025
